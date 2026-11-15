@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.5.15
+
+### Changed
+- **Sumber update dipindah** ke repo publik khusus `sqdconnection/updates-modules`
+  (hanya `update.json`, changelog, dan zip rilis; kode sumber tetap private).
+  `updateJson` di `module.prop` kini menunjuk ke sana. Modul v1.5.14 yang masih
+  menunjuk repo lama tetap menemukan update ini lewat jembatan di repo lama.
+
 ## v1.5.14
 
 Fokus: memperbaiki **ZygiskNext mati sendiri setelah IfwShield dipasang** (Android
